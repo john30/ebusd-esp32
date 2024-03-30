@@ -1,4 +1,9 @@
 
+### Version 2024-03-30, reported as `1[431e]`
+* fixes:
+  * avoid unnecessary wait when sending to eBUS after successful arbitration
+
+
 ### Version 2024-03-17, reported as `1[4311]`
 * features:
   * nicer web UI, better responsive layout
