@@ -1,3 +1,10 @@
+### Version 2024-04-15, reported as `1[440f]`
+* features:
+  * MQTT support with status info like version, uptime, eBUS signal, temperature, AP RSSI
+  * configurable HTTPS certificate
+* other:
+  * updated ESP-IDF to current git
+
 
 ### Version 2024-03-30, reported as `1[431e]`
 * fixes:
@@ -132,5 +139,3 @@
   * reading BMP180, BMP180, BME280 (REPL only)
   * control of LEDs and LED strip (REPL only)
   * optional SSD1306 for status display (REPL only)
-
-
