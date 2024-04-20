@@ -1,3 +1,11 @@
+
+### Version 2024-04-20, reported as `1[4414]`
+* features:
+  * add ps command
+* other:
+  * switched ESP-IDF to [release/v5.3 branch](https://github.com/espressif/esp-idf/tree/release/v5.3) and updated to latest
+
+
 ### Version 2024-04-15, reported as `1[440f]`
 * features:
   * MQTT support with status info like version, uptime, eBUS signal, temperature, AP RSSI
