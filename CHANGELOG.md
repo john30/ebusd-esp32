@@ -1,4 +1,19 @@
 
+### Version 2024-05-05, reported as `1[4505]`
+* features:
+  * improve timers and async handling of timed tasks (MQTT, LEDs)
+  * force full Wi-Fi calibration
+  * add wifi power+protocol+channel selection
+  * more verbose "query" and "ip" command output
+  * remove annoying vfs warning
+  * add workaround for DNS via DHCP
+  * increase tolerated HTTP header length
+  * disable queuing TCP out-of-order packets
+  * nicer web UI, better responsive layout
+* other:
+  * updated ESP-IDF to current git ([release/v5.3 branch](https://github.com/espressif/esp-idf/tree/release/v5.3))
+
+
 ### Version 2024-04-20, reported as `1[4414]`
 * features:
   * add ps command
