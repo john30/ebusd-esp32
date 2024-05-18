@@ -1,4 +1,12 @@
 
+### Version 2024-05-18, reported as `1[4512]`
+* features:
+  * nicer web UI, better responsive layout for the pins section
+  * skip too lengthy HTTP request headers (workaround for weird cloudflare tunneling)
+* fixes:
+  * correct topic extraction on received MQTT messages
+
+
 ### Version 2024-05-05, reported as `1[4505]`
 * features:
   * improve timers and async handling of timed tasks (MQTT, LEDs)
@@ -8,7 +16,7 @@
   * remove annoying vfs warning
   * add workaround for DNS via DHCP
   * increase tolerated HTTP header length
-  * disable queuing TCP out-of-order packets
+  * disable queueing TCP out-of-order packets
   * nicer web UI, better responsive layout
 * other:
   * updated ESP-IDF to current git ([release/v5.3 branch](https://github.com/espressif/esp-idf/tree/release/v5.3))
@@ -162,3 +170,4 @@
   * reading BMP180, BMP180, BME280 (REPL only)
   * control of LEDs and LED strip (REPL only)
   * optional SSD1306 for status display (REPL only)
+
