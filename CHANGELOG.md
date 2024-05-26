@@ -1,4 +1,17 @@
 
+### Version 2024-05-26, reported as `1[451a]`
+* features
+  * first version also released for [Wemos C3 mini](wemos.en) for use on older adapters
+  * improved workaround for skipping too lengthy HTTP request headers (for weird cloudflare tunneling)
+  * show initial network connection as green fade off
+  * smaller web UI improvements
+  * use dedicated reset pin for USR-ES1/W5500 Ethernet
+* fixes:
+  * missed reboot from web UI when skipping startup procedure
+* other:
+  * updated ESP-IDF to current git ([release/v5.3 branch](https://github.com/espressif/esp-idf/tree/release/v5.3))
+
+
 ### Version 2024-05-18, reported as `1[4512]`
 * features:
   * nicer web UI, better responsive layout for the pins section
@@ -170,4 +183,5 @@
   * reading BMP180, BMP180, BME280 (REPL only)
   * control of LEDs and LED strip (REPL only)
   * optional SSD1306 for status display (REPL only)
+
 
