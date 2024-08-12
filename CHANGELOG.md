@@ -1,3 +1,19 @@
+### Version 2024-08-09, reported as `1[4809]`
+* features
+  * first version also released for ESP32-C6 supporting the [C6 Edition](https://adapter.ebusd.eu/v5-c6/index.en.html)
+* other:
+  * updated ESP-IDF to released [v5.3 version](https://github.com/espressif/esp-idf/tree/release/v5.3) on [commit dc7fb34](https://github.com/espressif/esp-idf/commit/dc7fb34fca8d4a7b7232772458931072f44c3264) (without the massively changed USB serial driver though)
+
+
+### Version 2024-06-15, reported as `1[460f]`
+* features
+  * add logging of last data exchanged to/from eBUS/host on error log and in verbose mode
+* fixes:
+  * enable another WiFi optimization setting of ESP-IDF to improve TCP transfer
+  * remove one case reported as host protocol error, that is actually in responsibility of ebusd and not the adapter
+* other:
+  * updated ESP-IDF to current git ([release/v5.3 branch](https://github.com/espressif/esp-idf/tree/release/v5.3)) on [commit ae87691](https://github.com/espressif/esp-idf/commit/ae876915ec7aa0f96edc826e413baa45ac3c2a64)
+
 
 ### Version 2024-05-26, reported as `1[451a]`
 * features
@@ -183,5 +199,3 @@
   * reading BMP180, BMP180, BME280 (REPL only)
   * control of LEDs and LED strip (REPL only)
   * optional SSD1306 for status display (REPL only)
-
-
