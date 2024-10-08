@@ -1,3 +1,11 @@
+### Version 2024-10-08, reported as `1[4a08]`
+* features:
+  * add estimate bus voltage report to enhanced protocol
+  * add average of several samples for adc command
+* other:
+  * updated ESP-IDF to [v5.3.1 release on commit 707d097](https://github.com/espressif/esp-idf/commit/707d097b01756687cca18be855a2675d150247ae) (including the massively changed USB serial driver)
+
+
 ### Version 2024-08-25, reported as `1[4819]`
 * features:
   * better responsive web UI
