@@ -1,3 +1,15 @@
+### Version 2024-10-27, reported as `1[4a1b]`
+* features:
+  * add retrieval of credentials from WPS with push button mode (PBC) when device is blank
+  * add mDNS device string to the UI
+  * add Wi-Fi 6 only protocol selection on C6
+* fixes:
+  * arbitrary reboots issued by RGB LED driver
+  * mDNS service list in case of late station connection
+* other:
+  * updated ESP-IDF to [v5.3.1 release on commit a0f798c](https://github.com/espressif/esp-idf/commit/a0f798cfc4bbd624aab52b2c194d219e242d80c1)
+
+
 ### Version 2024-10-08, reported as `1[4a08]`
 * features:
   * add estimate bus voltage report to enhanced protocol
