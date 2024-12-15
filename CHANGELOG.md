@@ -1,3 +1,14 @@
+### Version 2024-12-15, reported as `1[4c0f]`
+* features:
+  * nicer UI
+  <!-- * first version also released for [eBUS Adapter Stick](stick.en) -->
+* fixes:
+  * fix wifi scan and join while wps enabled
+* other:
+  * updated mDNS component
+  * updated ESP-IDF to [v5.3.2 release on commit 083aad9](https://github.com/espressif/esp-idf/commit/083aad99cfc1a7981009ac7f18e29824c47ffba2)
+
+
 ### Version 2024-10-27, reported as `1[4a1b]`
 * features:
   * add retrieval of credentials from WPS with push button mode (PBC) when device is blank
@@ -16,6 +27,7 @@
   * add average of several samples for adc command
 * other:
   * updated ESP-IDF to [v5.3.1 release on commit 707d097](https://github.com/espressif/esp-idf/commit/707d097b01756687cca18be855a2675d150247ae) (including the massively changed USB serial driver)
+
 
 
 ### Version 2024-08-25, reported as `1[4819]`
