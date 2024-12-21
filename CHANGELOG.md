@@ -1,9 +1,9 @@
-### Version 2024-12-15, reported as `1[4c0f]`
+### Version 2024-12-21, reported as `1[4c15]`
 * features:
   * nicer UI
-  <!-- * first version also released for [eBUS Adapter Stick](stick.en) -->
 * fixes:
   * fix wifi scan and join while wps enabled
+  * fix previous build (20241215) with mismatched bundled UI
 * other:
   * updated mDNS component
   * updated ESP-IDF to [v5.3.2 release on commit 083aad9](https://github.com/espressif/esp-idf/commit/083aad99cfc1a7981009ac7f18e29824c47ffba2)
