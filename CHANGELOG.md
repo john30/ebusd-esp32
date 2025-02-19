@@ -1,3 +1,27 @@
+
+### Version 2025-02-16, reported as `1[5210]`
+* features:
+  * turn off red LED when WPS succeeded
+  * drop irrelevant logging during boot
+  * add ADC inputs to UI
+  * add option to send pin status and sensors to MQTT
+  * nicer UI
+* fixes:
+  * fix IMPROV transfer including newline chars (e.g. for scan result)
+  * fix reset in "strip" command
+* other:
+  * updated mDNS component
+  * updated ESP-IDF to [v5.3.2 release on commit a916a25](https://github.com/espressif/esp-idf/commit/a916a250ea6ffc28ce036e1ba2558e6c5b2043c9)
+
+
+### Version 2025-01-20, reported as `1[5114]`
+* features:
+  * start WPS after button press only when device is unconfigured and add WPS status to query command
+* other:
+  * updated mDNS component
+  * updated ESP-IDF to [v5.3.2 release on commit adf5319](https://github.com/espressif/esp-idf/commit/adf5319639b7e66e4f80868b14fee1acb73672c7)
+
+
 ### Version 2024-12-21, reported as `1[4c15]`
 * features:
   * nicer UI
