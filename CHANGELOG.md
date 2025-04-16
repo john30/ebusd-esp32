@@ -1,3 +1,10 @@
+### Version 2025-04-15, reported as `1[540f]`
+* features:
+  * add option to erase other partition to UI and "ota" command
+* other:
+  * updated mDNS component
+  * updated ESP-IDF to [v5.3.3 release on commit a916a25](https://github.com/espressif/esp-idf/commit/60d077eaddd070ba507dfdb160131b184d2804c6)
+
 
 ### Version 2025-02-16, reported as `1[5210]`
 * features:
