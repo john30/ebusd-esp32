@@ -1,3 +1,15 @@
+### Version 2025-06-15, reported as `1[560f]`
+* features:
+  * add Home Assistant integration via MQTT discovery including update entity
+  * add follow log option to UI
+  * add better responsive UI
+  * add faster transfer via MQTT with QoS 0
+* fixes:
+  * fix extended MQTT URI storage
+* other:
+  * updated ESP-IDF to [v5.3.3 release on commit d1159f6](https://github.com/espressif/esp-idf/commit/d1159f634d138f446625a585fc0c77ecee0bcfcb)
+
+
 ### Version 2025-05-17, reported as `1[5511]`
 * features:
   * add option to skip Ethernet module check
