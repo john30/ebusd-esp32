@@ -1,3 +1,33 @@
+### Version 2025-10-30, reported as `1[5a1e]`
+* **hot stuff**:
+  * this is the first release including [`micro-ebusd`, see here for details](https://adapter.ebusd.eu/v5-c6/uebusd.en).  
+    it includes the messages definitions as of [ebusd-configuration commit 7b47241](https://github.com/john30/ebusd-configuration/commit/7b47241) and uses a completely new eBUS codec engine based on the experience with [ebusd](https://github.com/john30/ebusd), [ebusd-configuration](https://github.com/john30/ebusd-configuration), and [ebus-typespec](https://github.com/john30/ebus-typespec).
+    The main feature highlights of `micro-ebusd` covered in this release are:
+    * automatic scan just like ebusd
+    * view, search, read, and write identified messages directly from the web UI
+    * list, read, and write identified messages as well as hex messages via REPL
+    * allow polling selected messages, adjustable in web UI
+    * partially cache messages seen on eBUS
+    * optionally send decoded message content via MQTT
+    * optionally send discovery messages to Home Assistant via MQTT with several filtering options
+* features:
+  * add better names to Home Assistant integration for device entities (via MQTT discovery)
+  * reduce memory consumption in several APIs (JSON and MQTT)
+  * move web UI base components to CDN
+  * no longer activate TX LED when sending SYN
+  * add low range option to "adc" command
+  * add syslog, use retained memory for log entries and allow adjusting the log level
+  * add raw log view to web UI
+* fixes:
+  * fix integrated self-signed SSL certificate (#100)
+  * change MQTT update topic to expect content in order to prevent unintended OTA
+  * also stop mDNS and MQTT during OTA update
+  * some minor improvements
+* other:
+  * updated onewire component and enable pull-up
+  * updated ESP-IDF to [v5.3.4 release on commit 13ec3f6](https://github.com/espressif/esp-idf/commit/13ec3f6)
+
+
 ### Version 2025-06-15, reported as `1[560f]`
 * features:
   * add Home Assistant integration via MQTT discovery including update entity
@@ -295,3 +325,5 @@
   * reading BMP180, BMP180, BME280 (REPL only)
   * control of LEDs and LED strip (REPL only)
   * optional SSD1306 for status display (REPL only)
+
+
