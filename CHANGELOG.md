@@ -1,3 +1,13 @@
+### Version 2025-11-02, reported as `1[5b02]`
+* features:
+  * disconnect during station "scan" command only if needed and reconnect afterwards
+  * retrieve full output of commands executed via web REPL
+* fixes:
+  * improve reloading retained logs
+  * avoid CDN for web UI base components due to potential connectivity issues on AP
+  * minor improvements to web UI
+
+
 ### Version 2025-10-30, reported as `1[5a1e]`
 * **hot stuff**:
   * this is the first release including [`micro-ebusd`, see here for details](https://adapter.ebusd.eu/v5-c6/uebusd.en).  
