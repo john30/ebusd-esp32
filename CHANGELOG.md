@@ -1,3 +1,14 @@
+### Version 2025-11-16, reported as `1[5b10]`
+* features:
+  * micro-ebusd: load message definitions from web if not already stored in flash
+  * web UI: add clear button to log tab
+* fixes:
+  * micro-ebusd: fix loading message definition by scan result
+  * ota: fix update availability check for web UI
+  * ethernet: fix explicitly configured IP treated as disconnected
+  * web UI: minor improvements
+
+
 ### Version 2025-11-02, reported as `1[5b02]`
 * features:
   * disconnect during station "scan" command only if needed and reconnect afterwards
@@ -12,6 +23,7 @@
 * **hot stuff**:
   * this is the first release including [`micro-ebusd`, see here for details](https://adapter.ebusd.eu/v5-c6/uebusd.en).  
     it includes the messages definitions as of [ebusd-configuration commit 7b47241](https://github.com/john30/ebusd-configuration/commit/7b47241) and uses a completely new eBUS codec engine based on the experience with [ebusd](https://github.com/john30/ebusd), [ebusd-configuration](https://github.com/john30/ebusd-configuration), and [ebus-typespec](https://github.com/john30/ebus-typespec).
+    <!-- the story behind `micro-ebusd` is long, [read some of it here](https://token.ebusd.eu/story). -->
     The main feature highlights of `micro-ebusd` covered in this release are:
     * automatic scan just like ebusd
     * view, search, read, and write identified messages directly from the web UI
