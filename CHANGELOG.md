@@ -1,3 +1,15 @@
+### Version 2025-11-23, reported as `1[5b17]`
+* features:
+  * micro-ebusd: enhance "cache" command
+* fixes:
+  * ota: stop watchdog during update
+  * micro-ebusd: fix message definition inclusion from another file
+  * micro-ebusd web UI: allow using cached data for passive messages
+* other:
+  * updated mdns component
+  * updated ESP-IDF to [v5.3.4 release on commit cb920e322](https://github.com/espressif/esp-idf/commit/cb920e322)
+
+
 ### Version 2025-11-16, reported as `1[5b10]`
 * features:
   * micro-ebusd: load message definitions from web if not already stored in flash
