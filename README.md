@@ -1,2 +1,2 @@
 # ebusd-esp32
-Firmware for ESP32-C3 and ESP32-C6 allowing eBUS communication for ebusd (https://github.com/john30/ebusd) as well as integrated micro-ebusd (https://adapter.ebusd.eu/v5-c6/uebusd.en.html) with lowest possible latency.
+Firmware for ESP32-C3 and ESP32-C6 for [eBUS Adapter Shield](https://adapter.ebusd.eu/v5-c6/index.en), [Stick](https://adapter.ebusd.eu/v5-c6/stick.en), [old v5](https://adapter.ebusd.eu/v5/index.en), and [v2 with Wemos C3](https://adapter.ebusd.eu/v30/index.en) devices allowing eBUS communication for ebusd (https://github.com/john30/ebusd) as well as integrated micro-ebusd (https://adapter.ebusd.eu/v5-c6/uebusd.en.html) with lowest possible latency.
