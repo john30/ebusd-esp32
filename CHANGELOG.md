@@ -1,3 +1,14 @@
+
+### Version 2025-11-30, reported as `1[5b1e]`
+* features:
+  * micro-ebusd web UI: enhance "Messages" tab with value lists, switches, numbers, and validation for writing, and show cache age
+* fixes:
+  * generic: send Home Assistant MQTT discovery always and all of them additionally when status message tells HA is online
+  * micro-ebusd: use default poll interval of 60s if not configured yet
+* other:
+  * updated mdns component
+
+
 ### Version 2025-11-23, reported as `1[5b17]`
 * features:
   * micro-ebusd: enhance "cache" command
