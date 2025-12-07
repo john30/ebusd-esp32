@@ -1,3 +1,16 @@
+### Version 2025-12-07, reported as `1[5c07]`
+* features:
+  * micro-ebusd: add multiple poll levels, configurable in "Messages" tab, and show estimated interval in tooltip
+  * micro-ebusd: wait for answer in "hex" command
+  * generic: add PWM outputs and allow higher precision for 1-wire DS18B20 sensors
+  * web UI: add ADC low range input
+  * generic: optimize nvs commands
+* fixes:
+  * generic: bring back UART RX pull-up "stolen" by ESP-IDF [commit a1ba653](https://github.com/espressif/esp-idf/commit/a1ba653952606d9c122f5eb01ad513e6c031dc7c#diff-82bd09b087ffa44fe79a57244cc2c94a4ff1c0d25a62af4652bd2820487fff9a) (fixes the Raspberry Pi GPIO connection mode, at least on RPI3)
+  * generic: solve stalled JTAG transfer seen sometimes when the host rebooted
+  * generic: resend Home Assistant MQTT discovery and status info when online message is received (even if the status did not change)
+  * web UI: minor improvements
+
 
 ### Version 2025-11-30, reported as `1[5b1e]`
 * features:
