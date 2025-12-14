@@ -1,3 +1,12 @@
+### Version 2025-12-14, reported as `1[5c0e]`
+* features:
+  * micro-ebusd web-UI: add status information including seen devices, scan status, and loaded files
+  * generic: optimize memory usage (especially for ESP32-C3) and release WiFi stack if unused
+  * web UI: minor improvements
+* fixes:
+  * micro-ebusd: avoid unnecessary manufacturer scan
+
+
 ### Version 2025-12-07, reported as `1[5c07]`
 * features:
   * micro-ebusd: add multiple poll levels, configurable in "Messages" tab, and show estimated interval in tooltip
