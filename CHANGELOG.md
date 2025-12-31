@@ -1,3 +1,13 @@
+### Version 2025-12-31, reported as `1[5c1f]`
+* features:
+  * generic: allow configuring non-default Home Assistant Birth topic and payload
+  * generic: add button to MQTT and Home Assistant Discovery
+  * web-UI: ask for confirmation when leaving a page with unsaved changes
+  * web UI: minor improvements
+* fixes:
+  * micro-ebusd web-UI: fix message list after saving polls
+
+
 ### Version 2025-12-14, reported as `1[5c0e]`
 * features:
   * micro-ebusd web-UI: add status information including seen devices, scan status, and loaded files
