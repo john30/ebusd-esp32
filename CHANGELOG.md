@@ -1,3 +1,19 @@
+### Version 2026-01-04, reported as `1[6104]`
+* features:
+  * micro-ebusd: extend /get API for use with circuit+message name
+  * micro-ebusd web UI: reveal ebusd-configuration version being used
+  * generic: add CPU usage, extend "info" command, and add optional debug topics to MQTT + HA Discovery
+  * generic: optimize CPU usage e.g. when JTAG is not connected
+  * generic: enable 802.11k+v on ESP32-C6 build (network assisted roaming with RRM+BTM)
+  * web UI: minor improvements
+* fixes:
+  * micro-ebusd: fix for large HA Discovery messages
+  * generic: fix functions calling other functions in startup scripts (could lead to e.g. WPS not starting)
+  * generic: fix MQTT TLS connection
+* other:
+  * updated ESP-IDF to [v5.5.2 release on commit 913c2b4f1](https://github.com/espressif/esp-idf/commit/913c2b4f1) and migrated enhanced drivers (including UART+JTAG, also fixes the Raspberry Pi GPIO connection mode)
+
+
 ### Version 2025-12-31, reported as `1[5c1f]`
 * features:
   * generic: allow configuring non-default Home Assistant Birth topic and payload
