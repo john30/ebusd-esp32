@@ -1,3 +1,16 @@
+### Version 2026-01-18, reported as `1[6112]`
+* features:
+  * micro-ebusd: add configurable explicit scan addresses
+  * generic: add configurable DNS (main/fallback)
+  * generic: enhance Home Assistant update entity
+  * web UI: minor improvements
+* fixes:
+  * generic: fix error on verbose info in enhanced protocol
+  * micro-ebusd: fix missing TEM_P datatype
+* other:
+  * updated ESP-IDF to [v5.5.2 release on commit f56bea3d1](https://github.com/espressif/esp-idf/commit/f56bea3d1)
+
+
 ### Version 2026-01-04, reported as `1[6104]`
 * features:
   * micro-ebusd: extend /get API for use with circuit+message name
