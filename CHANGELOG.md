@@ -1,3 +1,18 @@
+### Version 2026-02-08, reported as `1[6208]`
+* features:
+  * micro-ebusd: add reload command and API and UI actions
+  * micro-ebusd: add "keep scan" option
+  * micro-ebusd: add support for storing own message files as well as uploading temporary using [tsp2ebusd](https://github.com/john30/ebus-typespec)
+  * micro-ebusd: update messages definitions to [ebusd-configuration commit f728598](https://github.com/john30/ebusd-configuration/commit/f728598)
+  * micro-ebusd: allow omitting non-required fields in MQTT+API write
+  * web UI: minor improvements
+* fixes:
+  * micro-ebusd: fix max value for bit types
+  * micro-ebusd web UI: fix number validation
+* other:
+  * updated ESP-IDF to [v5.5.2 release on commit 87912cd](https://github.com/espressif/esp-idf/commit/87912cd)
+
+
 ### Version 2026-01-18, reported as `1[6112]`
 * features:
   * micro-ebusd: add configurable explicit scan addresses
