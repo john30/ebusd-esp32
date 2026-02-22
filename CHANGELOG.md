@@ -1,3 +1,11 @@
+### Version 2026-02-22, reported as `1[6216]`
+* features:
+  * micro-ebusd: add configurable receive timeout
+  * web UI: minor improvements
+* fixes:
+  * micro-ebusd: fix /get and /set endpoints potentially picking the wrong message
+
+
 ### Version 2026-02-08, reported as `1[6208]`
 * features:
   * micro-ebusd: add reload command and API and UI actions
