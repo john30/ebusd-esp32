@@ -1,3 +1,13 @@
+### Version 2026-03-01, reported as `1[6301]`
+* features:
+  * micro-ebusd: increase maximum of configurable receive timeout
+  * micro-ebusd: allow uploading own message definitions for completely unknown addresses as well
+  * generic: add low RSSI warning with red LED dimming down slowly
+  * web UI: minor improvements
+* other:
+  * updated mdns component
+
+
 ### Version 2026-02-22, reported as `1[6216]`
 * features:
   * micro-ebusd: add configurable receive timeout
