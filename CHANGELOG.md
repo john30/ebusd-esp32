@@ -1,3 +1,13 @@
+### Version 2026-03-04, reported as `1[6304]`
+* features:
+  * generic: increase tolerance for eBUS signal detection
+  * web UI: add advanced settings toggle to eBUS section
+* fixes:
+  * micro-ebusd: execution of load instruction in message definitions without context (introduced 20260301)
+  * generic: wrong URLs on MQTT HA device entry
+  * web UI: wrong links to docs and changelog
+
+
 ### Version 2026-03-01, reported as `1[6301]`
 * features:
   * micro-ebusd: increase maximum of configurable receive timeout
