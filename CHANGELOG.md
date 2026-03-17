@@ -1,3 +1,16 @@
+### Version 2026-03-17, reported as `1[6311]`
+* features:
+  * generic: add adc continuous options
+  * generic: increase tolerance for eBUS signal detection
+  * web UI: minor improvements
+* fixes:
+  * generic: resend button MQTT topic on HA birth
+  * generic: delay re-sending MQTT topics after HA birth and sent discovery messages
+* other:
+  * updated ESP-IDF to [v5.5.3 release on commit a9de5ec](https://github.com/espressif/esp-idf/commit/a9de5ec) (includes patches in UART driver)
+  * updated mdns and led_strip components
+
+
 ### Version 2026-03-04, reported as `1[6304]`
 * features:
   * generic: increase tolerance for eBUS signal detection
@@ -474,5 +487,3 @@
   * reading BMP180, BMP180, BME280 (REPL only)
   * control of LEDs and LED strip (REPL only)
   * optional SSD1306 for status display (REPL only)
-
-
