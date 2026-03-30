@@ -1,3 +1,17 @@
+### Version 2026-03-30, reported as `1[631e]`
+* features:
+  * micro-ebusd: add poll data to 'info' command
+  * micro-ebusd: add delay measurement to verbose output
+* fixes:
+  * micro-ebusd: avoid unnecessary memory allocation on too many requests in sequence
+  * generic: fix potentially stalled host communication via UART as well as RX pin settings (see [here](https://github.com/john30/ebusd/issues/1622#issuecomment-4147756736) and [ESP_IDF issue](https://github.com/espressif/esp-idf/issues/18404))
+  * generic: longer timeout for HTTP client during OTA
+  * micro-ebusd: fix dynamic filename built for load instruction
+  * generic: avoid starting manually configured ethernet if set to skip
+* other:
+  * updated mdns and DS18b20 components
+
+
 ### Version 2026-03-17, reported as `1[6311]`
 * features:
   * generic: add adc continuous options
