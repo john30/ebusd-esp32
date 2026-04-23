@@ -1,3 +1,11 @@
+### Version 2026-04-22, reported as `1[6416]`
+* features:
+  * micro-ebusd: new message definition file format introducing min/max/step values per field.  
+    This is backwards compatible, i.e. a newer firmware can still use older files, but not vice versa.  
+    As a consequence, before switching back to a version before 2026-04-22, all stored files need to be dropped manually, e.g. by issuing "rm /data/*" from the REPL.
+  * micro-ebusd: adjust several HA attributes and update messages definitions to [ebusd-configuration commit 365470c](https://github.com/john30/ebusd-configuration/commit/365470c)
+
+
 ### Version 2026-03-30, reported as `1[631e]`
 * features:
   * micro-ebusd: add poll data to 'info' command
