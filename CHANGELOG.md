@@ -1,3 +1,17 @@
+### Version 2026-05-06, reported as `1[6506]`
+* features:
+  * micro-ebusd: increase the limit for uploading temporary message definitions from 10k to 32k
+  * micro-ebusd: update messages definitions to [ebusd-configuration commit cdc11e1](https://github.com/john30/ebusd-configuration/commit/cdc11e1)
+  * micro-ebusd: add option to list and delete own files on webservice
+  * web UI: update UI library, add confirmation to reboot and file reload actions
+* fixes:
+  * micro-ebusd: fix handling of const message fields
+  * generic: extend connect timeout on improv
+* other:
+  * updated ESP-IDF to [v5.5.4 release on commit e467828](https://github.com/espressif/esp-idf/commit/e467828)
+  * updated mdns, DS18b20, and onewire_bus components
+
+
 ### Version 2026-04-22, reported as `1[6416]`
 * features:
   * micro-ebusd: new message definition file format introducing min/max/step values per field.  
