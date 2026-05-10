@@ -1,3 +1,13 @@
+### Version 2026-05-10, reported as `1[650a]`
+* features:
+  * generic: add optional common name verification to MQTT with TLS
+  * generic: add I2C BMP+BME sensors to MQTT and Home Assistant discovery
+  * web UI: add config save+restore
+* fixes:
+  * generic: fix missed enhanced protocol reset notification on connectionless host (Raspi+USB serial)
+  * micro-ebusd: remove Home Assistant discovery entry for previous ebusd connection
+
+
 ### Version 2026-05-06, reported as `1[6506]`
 * features:
   * micro-ebusd: increase the limit for uploading temporary message definitions from 10k to 32k
