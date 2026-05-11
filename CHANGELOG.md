@@ -1,4 +1,4 @@
-### Version 2026-05-10, reported as `1[650a]`
+### Version 2026-05-11, reported as `1[650b]`
 * features:
   * generic: add optional common name verification to MQTT with TLS
   * generic: add I2C BMP+BME sensors to MQTT and Home Assistant discovery
