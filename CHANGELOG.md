@@ -1,3 +1,15 @@
+### Version 2026-06-07, reported as `1[6607]`
+* features:
+  * micro-ebusd: include message poll in config save+restore
+  * generic: add NVS usage to "nvs_list" verbose output
+  * generic: add option to run custom REPL commands on startup
+  * web-UI: add button for downloading the log
+* fixes:
+  * micro-ebusd: avoid unnecessary dynamic file deletion
+* other:
+  * updated ESP-IDF to [v5.5.4 release on commit c2dd042](https://github.com/espressif/esp-idf/commit/c2dd042)
+
+
 ### Version 2026-05-11, reported as `1[650b]`
 * features:
   * generic: add optional common name verification to MQTT with TLS
