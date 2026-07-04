@@ -1,3 +1,16 @@
+### Version 2026-07-04, reported as `1[6704]`
+* features:
+  * micro-ebusd: log bus request reason, e.g. poll
+  * generic: smaller enhancements
+  * web UI: update UI library, add workaround for overlay positioning issue
+* fixes:
+  * generic: fix syslog host parsing
+  * micro-ebusd: fix missed JSON deallocation
+* other:
+  * updated ESP-IDF to [v5.5.4 release on commit bb2188b](https://github.com/espressif/esp-idf/commit/bb2188b)
+  * updated mdns, DS18b20, and onewire_bus components
+
+
 ### Version 2026-06-07, reported as `1[6607]`
 * features:
   * micro-ebusd: include message poll in config save+restore
