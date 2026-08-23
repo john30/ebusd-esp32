@@ -1,3 +1,13 @@
+### Version 2026-08-23, reported as `1[6817]`
+* features:
+  * generic: allow settings output pin via MQTT and include as switch in Home Assistant discovery
+  * generic: smaller enhancements
+  * web UI: add option to select the WiFi band (if 2 GHz and 5 GHz are possible) and show it on the top
+* other:
+  * updated ESP-IDF to [v5.5.5 release on commit c197d71](https://github.com/espressif/esp-idf/commit/c197d71)
+  * updated DS18b20 component
+
+
 ### Version 2026-07-04, reported as `1[6704]`
 * features:
   * micro-ebusd: log bus request reason, e.g. poll
