@@ -1,3 +1,11 @@
+### Version 2026-08-25, reported as `1[6819]`
+* fixes:
+  * generic: fix malloc issues introduced in previous release (in preparation of the new C5 variant)
+  * micro-ebusd: fix token check issue introduced in previous release (happens especially when initial network connection is slow which is more likely for Ethernet)
+* other:
+  * updated ESP-IDF to [v5.5.5 release on commit c94f345](https://github.com/espressif/esp-idf/commit/c94f345)
+
+
 ### Version 2026-08-23, reported as `1[6817]`
 * features:
   * generic: allow settings output pin via MQTT and include as switch in Home Assistant discovery
