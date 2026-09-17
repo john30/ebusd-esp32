@@ -1,3 +1,14 @@
+### Version 2026-09-17, reported as `1[6911]`
+* features:
+  * web UI: update UI library, add configurable sensor read interval
+* fixes:
+  * micro-ebusd: fix HA discovery messages not sent when network connect takes too long
+  * generic: don't send HA discovery for fixed output pins
+* other:
+  * updated ESP-IDF to [v5.5.5 release on commit e48ca65](https://github.com/espressif/esp-idf/commit/e48ca65)
+  * updated mdns and onewire_bus components
+
+
 ### Version 2026-08-25, reported as `1[6819]`
 * fixes:
   * generic: fix malloc issues introduced in previous release (in preparation of the new C5 variant)
