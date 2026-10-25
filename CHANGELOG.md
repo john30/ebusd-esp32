@@ -1,3 +1,15 @@
+### Version 2026-10-25, reported as `1[6a19]`
+* features:
+  * generic: add Ethernet health check
+* fixes:
+  * micro-ebusd: avoid error logs for HA discovery messages not able to be sent during startup
+  * generic: report invalid ebus host/protocol combinations on REPL
+  * micro-ebusd: no longer accept scalars as input from MQTT or HTTP
+* other:
+  * updated ESP-IDF to [v5.5.6 release on commit 3ea97e7](https://github.com/espressif/esp-idf/commit/3ea97e7)
+  * updated mdns and led_strip components
+
+
 ### Version 2026-09-17, reported as `1[6911]`
 * features:
   * web UI: update UI library, add configurable sensor read interval
