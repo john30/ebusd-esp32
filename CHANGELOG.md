@@ -1,3 +1,10 @@
+### Version 2026-10-26, reported as `1[6a1a]`
+* features:
+  * weweb UI: add Ethernet health check option (default off) 
+* fixes:
+  * generic: fix Ethernet health check introduced in previous release
+
+
 ### Version 2026-10-25, reported as `1[6a19]`
 * features:
   * generic: add Ethernet health check
