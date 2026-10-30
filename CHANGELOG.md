@@ -1,6 +1,14 @@
+### Version 2026-10-30, reported as `1[6a1e]`
+* features:
+  * web UI: show arbitration delay in status tooltip
+  * web UI: smaller enhancements
+* fixes:
+  * micro-ebusd: fix token check (introduced with 20261025)
+
+
 ### Version 2026-10-26, reported as `1[6a1a]`
 * features:
-  * weweb UI: add Ethernet health check option (default off) 
+  * web UI: add Ethernet health check option (default off) 
 * fixes:
   * generic: fix Ethernet health check introduced in previous release
 
