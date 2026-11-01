@@ -1,3 +1,14 @@
+### Version 2026-11-01, reported as `1[6b01]`
+* features:
+  * micro-ebusd: store and load manufacturer scan data when configured
+  * web UI: nicer dialogs
+* fixes:
+  * micro-ebusd: fix freeze when initiating eBUS message from UI
+  * micro-ebusd: fix potentially not loaded definitions when manufacturer scan failed
+  * micro-ebusd: fix conditions depending on range of product codes from manufacturer scan
+  * security: do not expose MQTT URL credentials when not authorized
+
+
 ### Version 2026-10-30, reported as `1[6a1e]`
 * features:
   * web UI: show arbitration delay in status tooltip
