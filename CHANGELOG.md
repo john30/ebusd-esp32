@@ -1,3 +1,14 @@
+### Version 2026-11-09, reported as `1[6b09]`
+* features:
+  * generic: add eBUS edge recording with visualisation, decoding and analysis (experimental)
+  * web UI: update UI library, smaller improvements
+* fixes:
+  * micro-ebusd: fix fallback condition on empty product code from manufacturer scan
+* other:
+  * updated ESP-IDF to [v5.5.6 release on commit f761a64](https://github.com/espressif/esp-idf/commit/f761a64)
+  * updated mdns component
+
+
 ### Version 2026-11-01, reported as `1[6b01]`
 * features:
   * micro-ebusd: store and load manufacturer scan data when configured
